@@ -1,0 +1,256 @@
+{
+    "data_16870883557635": {
+        "total_words": 5,
+        "word_count": {
+            "hola": 1,
+            "que": 1,
+            "tal": 1,
+            "soy": 1,
+            "yo": 1
+        },
+        "char_count": {
+            "h": 1,
+            "o": 3,
+            "l": 2,
+            "a": 2,
+            "q": 1,
+            "u": 1,
+            "e": 1,
+            "t": 1,
+            "s": 1,
+            "y": 2
+        },
+        "half_lenght": 3.0,
+        "longest_word": "hola",
+        "shortest_word": "yo",
+        "num_sentences": 0,
+        "num_paragraphs": 1,
+        "common_words": [
+            [
+                "hola",
+                1
+            ],
+            [
+                "que",
+                1
+            ],
+            [
+                "tal",
+                1
+            ],
+            [
+                "soy",
+                1
+            ],
+            [
+                "yo",
+                1
+            ]
+        ]
+    },
+    "data_16870883771046": {
+        "total_words": 6,
+        "word_count": {
+            "me": 1,
+            "tienes": 1,
+            "preocupado": 1,
+            "por": 1,
+            "favor": 1,
+            "dime": 1
+        },
+        "char_count": {
+            "m": 2,
+            "e": 5,
+            "t": 1,
+            "i": 2,
+            "n": 1,
+            "s": 1,
+            "p": 3,
+            "r": 3,
+            "o": 4,
+            "c": 1,
+            "u": 1,
+            "a": 2,
+            "d": 2,
+            "f": 1,
+            "v": 1
+        },
+        "half_lenght": 5.0,
+        "longest_word": "preocupado",
+        "shortest_word": "me",
+        "num_sentences": 1,
+        "num_paragraphs": 1,
+        "common_words": [
+            [
+                "me",
+                1
+            ],
+            [
+                "tienes",
+                1
+            ],
+            [
+                "preocupado",
+                1
+            ],
+            [
+                "por",
+                1
+            ],
+            [
+                "favor",
+                1
+            ],
+            [
+                "dime",
+                1
+            ]
+        ]
+    },
+    "data_16870884897715": {
+        "total_words": 5,
+        "word_count": {
+            "no": 1,
+            "tienes": 1,
+            "que": 1,
+            "ser": 1,
+            "asi": 1
+        },
+        "char_count": {
+            "n": 2,
+            "o": 1,
+            "t": 1,
+            "i": 2,
+            "e": 4,
+            "s": 3,
+            "q": 1,
+            "u": 1,
+            "r": 1,
+            "a": 1
+        },
+        "half_lenght": 3.4,
+        "longest_word": "tienes",
+        "shortest_word": "no",
+        "num_sentences": 1,
+        "num_paragraphs": 1,
+        "common_words": [
+            [
+                "no",
+                1
+            ],
+            [
+                "tienes",
+                1
+            ],
+            [
+                "que",
+                1
+            ],
+            [
+                "ser",
+                1
+            ],
+            [
+                "asi",
+                1
+            ]
+        ]
+    },
+    "data_16870885544493": {
+        "total_words": 3,
+        "word_count": {
+            "resultado": 1,
+            "cambiado": 1,
+            "pruebalo": 1
+        },
+        "char_count": {
+            "r": 2,
+            "e": 2,
+            "s": 1,
+            "u": 2,
+            "l": 2,
+            "t": 1,
+            "a": 4,
+            "d": 2,
+            "o": 3,
+            "c": 1,
+            "m": 1,
+            "b": 2,
+            "i": 1,
+            "p": 1
+        },
+        "half_lenght": 8.333333333333334,
+        "longest_word": "resultado",
+        "shortest_word": "cambiado",
+        "num_sentences": 1,
+        "num_paragraphs": 1,
+        "common_words": [
+            [
+                "resultado",
+                1
+            ],
+            [
+                "cambiado",
+                1
+            ],
+            [
+                "pruebalo",
+                1
+            ]
+        ]
+    },
+    "data_16870887529106": {
+        "total_words": 6,
+        "word_count": {
+            "holaa": 1,
+            "soy": 1,
+            "yo": 1,
+            "que": 1,
+            "lo": 1,
+            "sepas": 1
+        },
+        "char_count": {
+            "h": 1,
+            "o": 4,
+            "l": 2,
+            "a": 3,
+            "s": 3,
+            "y": 2,
+            "q": 1,
+            "u": 1,
+            "e": 2,
+            "p": 1
+        },
+        "half_lenght": 3.3333333333333335,
+        "longest_word": "holaa",
+        "shortest_word": "yo",
+        "num_sentences": 0,
+        "num_paragraphs": 1,
+        "common_words": [
+            [
+                "holaa",
+                1
+            ],
+            [
+                "soy",
+                1
+            ],
+            [
+                "yo",
+                1
+            ],
+            [
+                "que",
+                1
+            ],
+            [
+                "lo",
+                1
+            ],
+            [
+                "sepas",
+                1
+            ]
+        ]
+    }
+}
