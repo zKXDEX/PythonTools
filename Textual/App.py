@@ -6,17 +6,19 @@ from textual.containers import Container
 from textual.css.query import NoMatches
 from textual.reactive import var
 from textual.binding import Binding
-from textual.widgets import Button, Digits, Footer, Label, Tabs, TabbedContent, TabPane, Header
+from textual.widgets import Button, Digits, Footer, Label, Tabs, TabbedContent, TabPane, Header, Input
 
+from collections import Counter
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import fnmatch
+import json
+import time
+import os
+import random
+import re
 
-NamesTabs = [
-    "Calculator",
-    "Analizer",
-    "Guessing Game",
-    "Pass Generator",
-    "Speech",
-    "Alarm",
-]
 
 class ToolApp(App):
 
@@ -143,7 +145,7 @@ class ToolApp(App):
 
     def compose(self) -> ComposeResult:
 
-        with TabbedContent():
+        with TabbedContent(id="tabs"):
             with TabPane("Calculator"):
                 with Container(id="calculator"):
                     yield Digits(id="numbers")
@@ -168,20 +170,34 @@ class ToolApp(App):
                     yield Button(".", id="point")
                     yield Button("=", id="equals", variant="warning")
             with TabPane("Analizer"):
-                label = label = "Analizer"
-            with TabPane("Guessing Game"):
-                label = label = "Guessing Game"
-            with TabPane("Pass Generator"):
-                label = label = "Pass Generator"
+                with Container(id="analizer__container"):
+                    with Container(id="container__buttons"):
+                        yield Button("Analyze text", id="btn__analize__text", variant="default")
+                        yield Button("Analyze File", id="btn__analizer__file", variant="primary")
+                        yield Button("Graph", id="btn__graph__result", variant="success")
+                    with Container(id="container__analize__text"):
+                        yield Label("Enter the text to analyze: ", id="label__analize__text")
+                        yield Input(placeholder="First Name")
+            with TabPane("Pass_Generator"):
+                with Container(id="pass-generator"):
+                    yield Button("Pass", id="passgenerator", variant="success")
             with TabPane("Speech"):
-                label = label = "Speech"
+                with Container(id="speech"):
+                    yield Button("Speech", id="speecher", variant="success")
             with TabPane("Alarm"):
-                label = label = "Alarm"
+                with Container(id="alarm"):
+                    yield Button("Alarm", id="alarm", variant="success")
             
         yield Header()
         yield Footer()
 
+    @on(Button.Pressed, '#btn__analize__text')
+    def analize_text(self, event: Button.Pressed) -> None:
+        self.query_one("#container__buttons").display = False
 
+        self.query_one("#container__analize__text").display = True
+
+    
     def on_key(self, event: events.Key) -> None:
         def press(button_id: str) -> None:
             try:

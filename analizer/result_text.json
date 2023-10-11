@@ -252,5 +252,57 @@
                 1
             ]
         ]
+    },
+    "data_16970275133736": {
+        "total_words": 6,
+        "word_count": {
+            "dkshgsdjkhgsdgkljdsgnkdsgd": 1,
+            "sgsd": 1,
+            "gsd": 1,
+            "ds": 1,
+            "gsdg": 1,
+            "sd": 1
+        },
+        "char_count": {
+            "d": 11,
+            "k": 4,
+            "s": 11,
+            "h": 2,
+            "g": 9,
+            "j": 2,
+            "l": 1,
+            "n": 1
+        },
+        "half_lenght": 6.833333333333333,
+        "longest_word": "dkshgsdjkhgsdgkljdsgnkdsgd",
+        "shortest_word": "ds",
+        "num_sentences": 0,
+        "num_paragraphs": 1,
+        "common_words": [
+            [
+                "dkshgsdjkhgsdgkljdsgnkdsgd",
+                1
+            ],
+            [
+                "sgsd",
+                1
+            ],
+            [
+                "gsd",
+                1
+            ],
+            [
+                "ds",
+                1
+            ],
+            [
+                "gsdg",
+                1
+            ],
+            [
+                "sd",
+                1
+            ]
+        ]
     }
 }

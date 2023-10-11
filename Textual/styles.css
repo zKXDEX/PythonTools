@@ -7,3 +7,49 @@ Button {
     height: 100%;
 }
 
+#guessing-game{
+    align: center middle;
+}
+
+#calculator {
+    width: 100%;
+    height: 100%;
+}
+
+#tabs {
+    width: 100%;
+    height: 100%;
+}
+
+#playgame{
+    width: 50;
+    height: 5;
+}
+#guessing-game Button:hover {
+    background: #44e449;
+    border: none;
+    width: 50;
+    height: 5;
+}
+
+#analizer__container{
+    align: center middle;
+}
+
+#btn__analize__text, #btn__analizer__file, #btn__graph__result{
+    width: 50;
+    height: 5;
+    margin: 1 0 0 2;
+}
+
+#analizer__container Button:hover {
+    background: #272727;
+    border: none;
+    width: 50;
+    height: 5;
+}
+
+#container__analize__text{
+    display: none;
+    align: center middle;
+}
