@@ -1,0 +1,9 @@
+Screen {
+    overflow: auto;
+}
+
+Button {
+    width: 100%;
+    height: 100%;
+}
+
